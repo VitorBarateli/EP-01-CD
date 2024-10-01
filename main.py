@@ -5,7 +5,7 @@ import os.path
 
 class PokemonScrapper(scrapy.Spider):
   name = 'pokemon_scrapper'
-  domain = "https://pokemondb.net/"
+  domain = "https://pokemondb.net"
   start_urls = ["https://pokemondb.net/pokedex/all"]
 
   def parse(self, response):
